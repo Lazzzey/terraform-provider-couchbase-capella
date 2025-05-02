@@ -1,0 +1,27 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Ignore terraform plan, variable, backup and state files
+terraform.tfplan
+terraform.tfstate
+terraform.tfvars
+*.backup
+*.tfstate.*
+.testCoverage.txt
+
+# Ignore binary build folder
+bin
+
+# Ignore terraform hidden folder
+/.terraform
+
+# General
+.DS_STORE
+/.idea
+/.vscode
